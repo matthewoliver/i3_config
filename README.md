@@ -39,7 +39,7 @@ echo 'export TERMINAL="gnome-terminal"' > ~/.bashrc
 
 If you have multiple desktops you can use xrandr to configure then you can add the xrandr command to your ~/.i3/config file:
 
-   exec_always <xrandr command>
+   exec_always \<xrandr command\>
 
 Although an easier way, if you have a complicated setup is to use arander, when your done hit 'save' and it'll create a .sh file which the xrandr command inside, use that command inside the ~/.i3/config file.
 
