@@ -233,7 +233,8 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Desktops
 exec_always feh --bg-fill ~/.i3/openstackwallpaper1.png
-exec_always xrandr --output VIRTUAL1 --off --output DP2 --mode 1920x1080 --pos 2560x56 --rotate left --output DP1 --mode 2560x1440 --pos 0x0 --rotate normal --output HDMI2 --off --output HDMI1 --off --output VGA1 --off
+# The xrandr below is for my home desktop setup where I have 2 monitors and the one of the left is on it's side... you probably don't want this, but left here commented out so you see how it works.
+# exec_always xrandr --output VIRTUAL1 --off --output DP2 --mode 1920x1080 --pos 2560x56 --rotate left --output DP1 --mode 2560x1440 --pos 0x0 --rotate normal --output HDMI2 --off --output HDMI1 --off --output VGA1 --off
 
 # Workspaces
 
