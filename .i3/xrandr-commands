@@ -1,0 +1,2 @@
+xrandr --output DP2 --rotate left
+xrandr --output DP2 --left-of DP1
