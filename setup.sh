@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo dnf install i3 i3status i3lock i3blocks dmenu thunar pactl playerctl feh arandr fontawesome-fonts fontconfig lxappearance
+sudo dnf install i3 i3status i3lock i3blocks dmenu thunar pactl playerctl feh arandr fontawesome-fonts fontconfig lxappearance eog
 cp -a .i3 ~/
 
 # Grab hack font if it doesn't exist                                                                                  
