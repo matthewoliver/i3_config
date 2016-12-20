@@ -21,6 +21,7 @@ The setup will install:
   * fontconfig
   * lxappearance - To configure you gtk theme etc. (I prefer Arc-Darker with the Hack font).
   * eog - simple image viewer
+  * scrot - a console based screen shotting tool.
 
 ## Commands/Shortcuts
 
